@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+# For bazel & cmake
+*.lock
+.cache/
+build/
+
 # Compiled Object files
 *.slo
 *.lo
